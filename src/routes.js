@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch, BrowserRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import App from "./App";
 import Portfolio from "./Portfolio";
 
@@ -7,10 +7,11 @@ function Routes(props) {
   return (
     // <div>
     <BrowserRouter>
-      <Switch>
-        <Route path='/' component={App} />
-        <Route exact path='/Portfolio' component={Portfolio} />
-      </Switch>
+      <Routes>
+        <Route path='/' element={<App />}></Route>
+        <Route path='/App' element={<App />} />
+        <Route exact path='/Portfolio' element={<Portfolio />} />
+      </Routes>
     </BrowserRouter>
     // </div>
   );

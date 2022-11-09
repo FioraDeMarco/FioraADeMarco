@@ -14,6 +14,7 @@ export class Portfolio extends React.Component {
                 <img
                   className='icon'
                   src={require("../Icons/linkedin-icon.png")}
+                  alt=''
                 />
               </a>
             </div>
@@ -31,7 +32,11 @@ export class Portfolio extends React.Component {
               Resume
             </a> */}
             <a href='https://github.com/FioraDeMarco'>
-              <img className='icon' src={require("../Icons/GitHub-Mark.png")} />
+              <img
+                className='icon'
+                src={require("../Icons/GitHub-Mark.png")}
+                alt=''
+              />
             </a>
           </header>
         </div>

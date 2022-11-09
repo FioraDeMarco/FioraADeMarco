@@ -3,17 +3,16 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import Portfolio from "./Portfolio/Portfolio";
-import { Route, Switch, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    {/* <App /> */}
-    <Switch>
-      <Route exact path='/' component={App} />
-      <Route path='/App' component={App} />
-      <Route path='/Portfolio' component={Portfolio} />
-    </Switch>
+    <Routes>
+      <Route exact path='/' element={<App />} />
+      <Route path='/App' element={<App />} />
+      <Route path='/Portfolio' element={<Portfolio />} />
+    </Routes>
   </BrowserRouter>
 );
 

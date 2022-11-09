@@ -28,9 +28,6 @@ export class Portfolio extends React.Component {
                 </div>
               </Link>
             </div>
-            {/* <a href='https://drive.google.com/file/d/1Sw8u4sdK3iyRnHk5Ay0okk2wyURmVGRH/view?usp=sharing'>
-              Resume
-            </a> */}
             <a href='https://github.com/FioraDeMarco'>
               <img
                 className='icon'

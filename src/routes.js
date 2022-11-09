@@ -5,7 +5,6 @@ import Portfolio from "./Portfolio";
 
 function Routes(props) {
   return (
-    // <div>
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<App />}></Route>
@@ -13,7 +12,6 @@ function Routes(props) {
         <Route exact path='/Portfolio' element={<Portfolio />} />
       </Routes>
     </BrowserRouter>
-    // </div>
   );
 }
 

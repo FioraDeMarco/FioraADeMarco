@@ -1,5 +1,4 @@
 import React from "react";
-//import InfiniteScroll from "react-infinite-scroll-component";
 import "./Portfolio.css";
 import { Link } from "react-router-dom";
 
@@ -80,7 +79,7 @@ export class Portfolio extends React.Component {
               <img
                 src={require("../Images/gitTogether1.png")}
                 id='image'
-                alt='2'
+                alt=''
               />
               <br />
               <br />
@@ -90,7 +89,7 @@ export class Portfolio extends React.Component {
               <img
                 src={require("../Images/gitTogether2.png")}
                 id='image'
-                alt='yo'
+                alt='There was supposed to be a very impressive image here'
               />
               <br />
               ● User can post projects to the project feed.
@@ -99,7 +98,7 @@ export class Portfolio extends React.Component {
               <img
                 src={require("../Images/gitTogether3.png")}
                 id='image'
-                alt='3'
+                alt='There was supposed to be a very impressive image here'
               />
             </div>
             <div>Watch the Demo Video!</div>
@@ -137,7 +136,7 @@ export class Portfolio extends React.Component {
               <img
                 src={require("../Images/soundathon2.png")}
                 id='image'
-                alt='2'
+                alt=''
               />
               <br />
               ● Local musical gems get recognition!
@@ -146,7 +145,7 @@ export class Portfolio extends React.Component {
               <img
                 src={require("../Images/soundathon4.png")}
                 id='image'
-                alt='2'
+                alt=''
               />
               <br />
               ● Artists can add events to the map.
@@ -155,7 +154,7 @@ export class Portfolio extends React.Component {
               <img
                 src={require("../Images/soundathon3.png")}
                 id='image'
-                alt='2'
+                alt=''
               />
             </div>
             <br />
@@ -180,7 +179,7 @@ export class Portfolio extends React.Component {
               <img
                 src={require("../Images/GraceShopper.png")}
                 id='image'
-                alt='2'
+                alt=''
               />
             </div>
             <br />
